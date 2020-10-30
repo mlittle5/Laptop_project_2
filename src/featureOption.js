@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import FEATURES from './data'
+import FEATURES from './data';
 import slugify from "slugify";
 import USCurrencyFormat from './currency';
 
 class FeatureOption extends Component {
     render() { 
-        const options = this.props.FEATURES[this.props.feature].map((item) => {
+        return FEATURES[this.props.feature].map((item) => {
             const itemHash = slugify(JSON.stringify(item));
             return (
               <div key={itemHash} className="feature__item">
@@ -23,9 +23,9 @@ class FeatureOption extends Component {
               </div>
             );
           });
-        return ( 
-            <>{options}</>
-         );
+        // return ( 
+        //     <>{options}</>
+        //  );
     }
 }
  
