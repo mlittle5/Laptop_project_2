@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import FEATURES from './data';
+import FEATURES from '../data';
 import slugify from "slugify";
-import USCurrencyFormat from './currency';
+import USCurrencyFormat from '../currency/currency';
 
 class FeatureOption extends Component {
     render() { 

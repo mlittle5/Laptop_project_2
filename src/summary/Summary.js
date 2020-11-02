@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import USCurrencyFormat from './currency';
-import Options from './options';
+import Options from '../options/options';
 
 
 class Summary extends Component {

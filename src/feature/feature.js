@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import slugify from "slugify";
-import FEATURES from "./data";
-import FeatureOption from "./featureOption";
+import FEATURES from "../data";
+import FeatureOption from "../feature-option/featureOption";
 // import USCurrencyFormat from './currency'
 
 // const USCurrencyFormat = new Intl.NumberFormat("en-US", {

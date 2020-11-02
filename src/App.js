@@ -5,10 +5,10 @@ import React, { Component } from "react";
 // import slugify from "slugify";
 
 import "./App.css";
-import Summary from "./Summary";
-import Feature from "./feature";
-import Total from './total';
-import Header from './header'
+import Summary from "./summary/Summary";
+import Feature from "./feature/feature";
+import Total from './total/total';
+import Header from './header/header'
 
 // This object will allow us to
 // easily convert numbers into US dollar values
